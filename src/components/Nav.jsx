@@ -1,13 +1,13 @@
 
-
+import { Link } from 'react-router-dom';
 import { Disclosure } from '@headlessui/react'
 import { Bars3Icon,  XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
-  { name: 'Home', href: '#', current: true },
-  { name: 'About Me', href: '#', current: false },
-  { name: 'Projects', href: '#', current: false },
-  { name: 'Contact', href: '#', current: false },
+  { name: 'Home', href: '/', current: true },
+  { name: 'About Me', href: '/About', current: false },
+  { name: 'Projects', href: '/Projects', current: false },
+  { name: 'Contact', href: '/Contact', current: false },
 ]
 
 function classNames(...classes) {
@@ -34,13 +34,15 @@ export default function Nav() {
                 )}
               </Disclosure.Button>
             </div>
-            <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start t">
-              <div className="flex flex-shrink-0 items-center">
+            <div className="flex flex-1 items-center gap-96 sm:items-stretch sm:justify-start ">
+              <div className="flex flex-shrink-0 items-center  ">
+                <Link to="/">
                 <img
-                  className="h-10 w-auto"
+                  className="h-10 w-auto rounded-full"
                   src="../../public/logo.png"
                   alt="Your Company"
                 />
+                </Link>
               </div>
               <div className="hidden sm:ml-6 sm:block">
                 <div className="flex space-x-4 ">
@@ -49,8 +51,8 @@ export default function Nav() {
                       key={item.name}
                       href={item.href}
                       className={classNames(
-                        item.current ? 'bg-gradient-to-r from-purple-500 to-pink-500 text-black' : 'text-blue-900 font-serif hover:bg-gradient-to-r from-purple-500 to-pink-500 hover:text-white',
-                        'rounded-md px-3 py-2 text-sm font-medium'
+                        item.current ?  'text-blue-900 font-serif' : 'text-blue-900 font-serif hover:bg-gradient-to-r from-purple-500 to-pink-500 hover:text-white',
+                        'rounded-md px-3 py-2 text-md font-medium'
                       )}
                       aria-current={item.current ? 'page' : undefined}
                     >
