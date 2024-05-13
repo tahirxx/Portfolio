@@ -57,8 +57,8 @@ import Headshot1 from '../../public/Headshot3.png'
 
 export default function About() {
   return (
-    <div className="bg-[url('../../public/wave17.svg')] bg-cover bg-center max-h-max mx-auto max-w-screen-2xl ">
-    <div className='max-100vh mx-auto px-4  sm:px-6 sm:py-6 lg:max-w-7xl lg:px-8 text-red pt-20 flex flex-col'>
+    <div className="bg-[url('../../public/wave14.svg')] bg-cover bg-center max-h-max mx-auto max-w-screen-2xl  ">
+    <div className='max-w-2xl mx-auto px-4 sm:px-6 sm:py-10 lg:max-w-7xl lg:px-8 text-red pt-20 flex flex-col '>
         <div className="h-1/2 text-wrap pb-6 flex flex-col justify-center items-center text-center">
           <h1 className="text-3xl font-serif ">About Me</h1>
           
@@ -69,8 +69,8 @@ export default function About() {
  {/* First headshot */}
     <img src={Headshot1} alt="" className='rounded-2xl absolute top-0 left-0 z-10'/>
      </div>
-          <div className='flex flex-col '>
-              <div className='w-3/4 text-center  '>
+          <div className='flex flex-col mb-16'>
+              <div className='w-3/4 text-center '>
                 <p className=' font-serif text-xl text-left'>Greetings! Im a software developer who transitioned from a decade-long career as an ultrasound technologist in healthcare. Following my bootcamp completion in 2023, I've dedicated over a year to coding. Armed with a Bachelor of Science from The Ohio State University, I prioritize user-centric design and excel in teamwork. I'm currently open for hire and excited to collaborate on innovative projects. </p>
                   <br></br>
                 <p className=' font-serif text-xl text-left'>Greetings! Im a software developer who transitioned from a decade-long career as an ultrasound technologist in healthcare. Following my bootcamp completion in 2023, I've dedicated over a year to coding. </p>

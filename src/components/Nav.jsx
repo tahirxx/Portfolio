@@ -2,10 +2,13 @@
 import { Link } from 'react-router-dom';
 import { Disclosure } from '@headlessui/react'
 import { Bars3Icon,  XMarkIcon } from '@heroicons/react/24/outline'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons';
+
 
 const navigation = [
   { name: 'Home', href: '/', current: true },
-  { name: 'About Me', href: '/About', current: false },
+  { name: 'About', href: '/About', current: false },
   { name: 'Projects', href: '/Projects', current: false },
   { name: 'Contact', href: '/Contact', current: false },
 ]
@@ -61,6 +64,12 @@ export default function Nav() {
                   ))}
                 </div>
               </div>
+              <div className='flex mr-6 justify-center gap-4 items-center '>
+               
+                <a href="https:www.linkedin.com/" className=' hover:opacity-50'><FontAwesomeIcon icon={faLinkedin} /></a>
+                <a href="https:www.Twitter.com/" className='hover:opacity-50'><FontAwesomeIcon icon={faTwitter} /></a>
+                <a href="https:www.Instagram.com/" className='hover:opacity-50'><FontAwesomeIcon icon={faInstagram} /></a>
+              </div>
             </div>
            
           </div>
@@ -87,5 +96,6 @@ export default function Nav() {
       </>
     )}
   </Disclosure>
+
   )
 }
