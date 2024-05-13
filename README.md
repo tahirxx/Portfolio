@@ -18,7 +18,7 @@ My portfolio website showcases my skills, projects, and experiences in an elegan
 
 Explore my portfolio website:
 
-- [Preview on Netlify](#) urjiportfolio.netlify.app
+- [Preview on Netlify](#) (https://urjiportfolio.netlify.app/)
 - 
 
 ---
