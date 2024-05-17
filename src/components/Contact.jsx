@@ -34,7 +34,7 @@ export default function Contact() {
   return (
     
    
-      <div className=" bg-[url('../../public/wave22.svg')] bg-cover bg-right flex justify-center max-h-max mx-auto max-w-screen-2xl  px-6 sm:py-20 lg:px-8">
+      <div className=" bg-[url('/wave22.svg')] bg-cover bg-right flex justify-center max-h-max mx-auto max-w-screen-2xl  px-6 sm:py-20 lg:px-8">
        <div className="bg-gray-100 w-200  p-6 rounded-md">
       <div className="  mx-auto text-center">
         <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Get In Touch</h2>
