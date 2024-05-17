@@ -42,7 +42,7 @@ export default function Nav() {
                 <Link to="/">
                 <img
                   className="h-10 w-auto rounded-full"
-                  src="../../public/logo.png"
+                  src="/logo.png"
                   alt="Your Company"
                 />
                 </Link>
