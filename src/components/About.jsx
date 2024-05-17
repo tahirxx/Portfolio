@@ -1,55 +1,55 @@
-import Headshot1 from '../../public/Headshot3.png';
-import oromo3 from '../../public/oromo3.jpg';
-import Urji from '../../public/Urji4.png';
-import work from '../../public/work1.png'
+import Headshot1 from '/headshot3.png';
+import oromo3 from '/oromo3.jpg';
+import Urji from '/Urji4.png';
+import work from '/work1.png'
   const people = [
   {
     name: 'Leslie Alexander',
     role: 'Co-Founder / CEO',
     imageUrl:
-      '../../public/html5.svg',
+      '/html5.svg',
   },
   {
     name: 'Leslie Alexander',
     role: 'Co-Founder / CEO',
     imageUrl:
-      '../../public/css3-alt.svg',
+      '/css3-alt.svg',
   },
   {
     name: 'Leslie Alexander',
     role: 'Co-Founder / CEO',
     imageUrl:
-      '../../public/js.svg',
+      '/js.svg',
   },
   {
     name: 'Leslie Alexander',
     role: 'Co-Founder / CEO',
     imageUrl:
-      '../../public/react.svg',
+      '/react.svg',
   },
   {
     name: 'Leslie Alexander',
     role: 'Co-Founder / CEO',
     imageUrl:
-      '../../public/node.svg',
+      '/node.svg',
   },
   {
     name: 'Leslie Alexander',
     role: 'Co-Founder / CEO',
     imageUrl:
-      '../../public/java.svg',
+      '/java.svg',
   },
   {
     name: 'Leslie Alexander',
     role: 'Co-Founder / CEO',
     imageUrl:
-      '../../public/git.svg',
+      '/git.svg',
   },
   {
     name: 'Leslie Alexander',
     role: 'Co-Founder / CEO',
     imageUrl:
-      '../../public/github.svg',
+      '/github.svg',
   },
 
   
@@ -59,7 +59,7 @@ import work from '../../public/work1.png'
 
 export default function About() {
   return (
-    <div className="bg-[url('../../public/wave14.svg')] bg-cover bg-center max-h-max mx-auto max-w-screen-2xl  ">
+    <div className="bg-[url('/wave14.svg')] bg-cover bg-center max-h-max mx-auto max-w-screen-2xl  ">
     <div className='max-w-2xl mx-auto sm:px-6 sm:py-10 lg:max-w-7xl lg:px-2 pt-20 flex flex-col '>
         <div className="h-1/2 text-wrap pb-6 flex flex-col justify-center items-center text-center">
           <h1 className="text-3xl font-serif ">About</h1>
@@ -70,7 +70,7 @@ export default function About() {
         <div className='w-2/3 grid grid-cols-2 ' >
           
  
-    <img src={Headshot1} alt="" className='w-60 h-90 rounded-2xl relative' style={{left: ''}}/>
+    <img src={Headshot1} alt="" className='w-60 h-90 rounded-2xl relative ' style={{left: ''}}/>
     <img src={oromo3} alt="" className='w-80 h-60 rounded-2xl '/>
         <img src={work} alt="" className='w-80 h-90 rounded-2xl '/>
         <img src={Urji} alt="" className='w-60 h-96 rounded-2xl relative' style={{ top: '-140px', left: '20px' }}/>
