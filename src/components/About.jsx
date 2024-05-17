@@ -1,5 +1,7 @@
-import Headshot1 from '../../public/Headshot3.png'
-
+import Headshot1 from '../../public/Headshot3.png';
+import oromo3 from '../../public/oromo3.jpg';
+import Urji from '../../public/Urji4.png';
+import work from '../../public/work1.png'
   const people = [
   {
     name: 'Leslie Alexander',
@@ -58,23 +60,37 @@ import Headshot1 from '../../public/Headshot3.png'
 export default function About() {
   return (
     <div className="bg-[url('../../public/wave14.svg')] bg-cover bg-center max-h-max mx-auto max-w-screen-2xl  ">
-    <div className='max-w-2xl mx-auto px-4 sm:px-6 sm:py-10 lg:max-w-7xl lg:px-8 text-red pt-20 flex flex-col '>
+    <div className='max-w-2xl mx-auto sm:px-6 sm:py-10 lg:max-w-7xl lg:px-2 pt-20 flex flex-col '>
         <div className="h-1/2 text-wrap pb-6 flex flex-col justify-center items-center text-center">
-          <h1 className="text-3xl font-serif ">About Me</h1>
+          <h1 className="text-3xl font-serif ">About</h1>
           
         </div>
-        <div className='flex space-x-10 pt-8'>
-        <div className='w-full relative'>
+        <div className='flex gap-14 pt-6'>
+          {/* image section */}
+        <div className='w-2/3 grid grid-cols-2 ' >
           
- {/* First headshot */}
-    <img src={Headshot1} alt="" className='rounded-2xl absolute top-0 left-0 z-10'/>
+ 
+    <img src={Headshot1} alt="" className='w-60 h-90 rounded-2xl relative' style={{left: ''}}/>
+    <img src={oromo3} alt="" className='w-80 h-60 rounded-2xl '/>
+        <img src={work} alt="" className='w-80 h-90 rounded-2xl '/>
+        <img src={Urji} alt="" className='w-60 h-96 rounded-2xl relative' style={{ top: '-140px', left: '20px' }}/>
+    
      </div>
-          <div className='flex flex-col mb-16'>
-              <div className='w-3/4 text-center '>
-                <p className=' font-serif text-xl text-left'>Greetings! Im a software developer who transitioned from a decade-long career as an ultrasound technologist in healthcare. Following my bootcamp completion in 2023, I've dedicated over a year to coding. Armed with a Bachelor of Science from The Ohio State University, I prioritize user-centric design and excel in teamwork. I'm currently open for hire and excited to collaborate on innovative projects. </p>
-                  <br></br>
-                <p className=' font-serif text-xl text-left'>Greetings! Im a software developer who transitioned from a decade-long career as an ultrasound technologist in healthcare. Following my bootcamp completion in 2023, I've dedicated over a year to coding. </p>
-              </div>
+     {/* get to know me content */}
+          <div className='flex flex-col'>
+              <div className='w-full  bg-gray-100 rounded-ml px-8 py-2 text-left text-md '>
+              <h2 className='font-bold text-xl text-center'>Get to Know Me</h2>
+        <p ><strong>Born and Raised:</strong><br></br>I was born in the Oromia Region, Ethiopia. Grew up in Columbus, Ohio, embracing a vibrant community and diverse experiences.</p>
+        <p><strong>Education:</strong><br></br>Earned a Bachelor of Science from The Ohio State University, providing a strong foundation in critical thinking and scientific principles.</p>
+        
+        <p><strong>Professional Journey:</strong><br></br>Spent a decade as an ultrasound technologist at the OSU Wexner Medical Center, gaining deep insights into patient care and healthcare technology.</p>
+        <p><strong>Community Involvement:</strong><br></br>Served as a youth organizer and secretary for the Oromo Community of Columbus, Ohio, dedicated to fostering community spirit and engagement.</p>
+        <p><strong>Personal Life:</strong><br></br>Proud mother to three beautiful kids, balancing family life with a dynamic career.</p>
+        <p><strong>Career Transition:</strong><br></br>Completed an intensive coding bootcamp in 2023, which fueled my passion for software development.</p>
+        <p><strong>Current Focus:</strong><br></br>Over a year of experience in coding, I am dedicated to crafting user-centric designs and fostering effective teamwork dynamics.</p>
+       
+    
+               </div>
               <div className=" mt-4">
                 <div className="mx-auto grid max-w-7xl gap-y-5 px-2 ">
                   <h1 className="text-2xl font-bold text-left pt-12" >My Skills</h1>

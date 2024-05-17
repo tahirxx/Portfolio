@@ -20,8 +20,8 @@ const products = [
     imageAlt: "Front of men's Basic Tee in black.",
     description: 'A responsive website for a real estate agency showcasing properties with search and filtering functionalities.',
     color: 'Black',
-    demo: 'https://luxelaneshop.netlify.app' ,
-    code: 'https://github.com/tahirxx/Ecommerce/tree/master',
+    demo: 'https://realtyhub-2dcd11.netlify.app/' ,
+    code: 'https://github.com/tahirxx/realestate',
   },
   {
     id: 3,
@@ -32,35 +32,35 @@ const products = [
     description: 'A professional website for a consulting firm, providing information about services, team, and contact details.',
     color: 'Black',
     demo: 'https://luxelaneshop.netlify.app' ,
-    code: 'https://github.com/tahirxx/Ecommerce/tree/master',
+    code: 'https://github.com/tahirxx/StellerTech',
   },
   {
     id: 4,
-    name: 'Travel Booking Website',
+    name: 'SavoryBites',
     href: '#',
-    imageSrc: '../../public/realestate2.png',
+    imageSrc: '../../public/menu1.png',
     imageAlt: "Front of men's Basic Tee in black.",
-    description: 'An online platform for educational purposes, offering courses, quizzes, and progress tracking for users.',
+    description: 'A webpage to show restaurant menu and information for customer.',
     color: 'Black',
-    demo: 'https://luxelaneshop.netlify.app' ,
-    code: 'https://github.com/tahirxx/Ecommerce/tree/master',
+    demo: 'https://savorybitess.netlify.app' ,
+    code: 'https://github.com/tahirxx/Menu',
   },
   {
     id: 5,
-    name: 'Portfolio Website',
+    name: 'Coming soon.. Social Media App',
     href: '#',
-    imageSrc: '../../public/realestate.png',
+    imageSrc: '../../public/coming.png',
     imageAlt: "Front of men's Basic Tee in black.",
-    description: 'A personal portfolio website showcasing skills, projects, and contact information in an interactive manner.',
+    description: 'A social media website showcasing skills, projects, and contact information in an interactive manner.',
     color: 'Black',
     demo: 'https://luxelaneshop.netlify.app' ,
     code: 'https://github.com/tahirxx/Ecommerce/tree/master',
   },
   {
     id: 6,
-    name: 'Food Delivery App',
+    name: 'Coming soon...AI ChatBot',
     href: '#',
-    imageSrc: '../../public/ecommerce3.png',
+    imageSrc: '../../public/coming.png',
     imageAlt: "Front of men's Basic Tee in black.",
     description: 'A mobile application for ordering food online from local restaurants, with real-time tracking of orders.',
     color: 'Black',
@@ -92,10 +92,10 @@ export default function Projects() {
               </div>
               <div className="my-4 text-lg flex w-full justify-center gap-10 ">
                 <div className="bg-white rounded-lg text-center w-40 hover:bg-gray-400">
-                  <a href={product.demo} className="">Live Demo</a>
+                  <a href={product.demo} target="_blank" className="">Live Demo</a>
                 </div>
                 <div className=" bg-white rounded-md text-center w-40  hover:bg-gray-400">
-                  <a href={product.code}>Code</a>
+                  <a href={product.code} target="_blank">Code</a>
                 </div>
               </div>
             </div>
