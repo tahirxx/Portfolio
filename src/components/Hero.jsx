@@ -1,8 +1,12 @@
 import Headshot from '/Headshot2.png';
 
 export default function Hero() {
+  const background = '/wave4.svg';
+  
+  const backgroundClass = `bg-[url('${background}')] bg-cover bg-center opacity-1 max-h-max mx-auto max-w-screen-2xl`;
+
   return (
-    <div className="bg-[url('/wave4.svg')] bg-cover bg-center opacity-1  max-h-max mx-auto max-w-screen-2xl ">
+    <div className={backgroundClass}>
       
     <div className='mx-auto max-w-2xl px-4 py-10 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8 flex justify-center text-left text-white'>
       

@@ -1,11 +1,15 @@
-
+import ecommerce from '/ecommerce2.png';
+import realestate from '/realestate.png';
+import web1 from '/web1.png';
+import menu1 from '/menu1.png';
+import coming from '/Coming.png';
 
 const products = [
   {
     id: 1,
     name: 'LuxeLane',
     href: '#',
-    imageSrc: '/ecommerce2.png',
+    imageSrc: ecommerce,
     imageAlt: "Front of men's Basic Tee in black.",
     description: 'An online store selling various products with features such as product catalog, shopping cart, and secure checkout.',
     color: 'Black',
@@ -16,7 +20,7 @@ const products = [
     id: 2,
     name: 'RealtyHub',
     href: '#',
-    imageSrc: '/realestate.png',
+    imageSrc: realestate,
     imageAlt: "Front of men's Basic Tee in black.",
     description: 'A responsive website for a real estate agency showcasing properties with search and filtering functionalities.',
     color: 'Black',
@@ -27,7 +31,7 @@ const products = [
     id: 3,
     name: 'Astro Consulting',
     href: '#',
-    imageSrc: '/web1.png',
+    imageSrc: web1,
     imageAlt: "Front of men's Basic Tee in black.",
     description: 'A professional website for a consulting firm, providing information about services, team, and contact details.',
     color: 'Black',
@@ -38,7 +42,7 @@ const products = [
     id: 4,
     name: 'SavoryBites',
     href: '#',
-    imageSrc: '/menu1.png',
+    imageSrc: menu1,
     imageAlt: "Front of men's Basic Tee in black.",
     description: 'A webpage to show restaurant menu and information for customer.',
     color: 'Black',
@@ -49,7 +53,7 @@ const products = [
     id: 5,
     name: 'Coming soon.. Social Media App',
     href: '#',
-    imageSrc: '/Coming.png',
+    imageSrc: coming,
     imageAlt: "Front of men's Basic Tee in black.",
     description: 'A social media website showcasing skills, projects, and contact information in an interactive manner.',
     color: 'Black',
@@ -60,7 +64,7 @@ const products = [
     id: 6,
     name: 'Coming soon...AI ChatBot',
     href: '#',
-    imageSrc: '/Coming.png',
+    imageSrc: coming,
     imageAlt: "Front of men's Basic Tee in black.",
     description: 'A mobile application for ordering food online from local restaurants, with real-time tracking of orders.',
     color: 'Black',
