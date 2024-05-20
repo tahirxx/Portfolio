@@ -1,4 +1,4 @@
-import Headshot1 from '/headshot3.png';
+import Headshot1 from '../../public/headshot3.png';
 import oromo3 from '/oromo3.jpg';
 import Urji from '/Urji4.png';
 import work from '/work1.png'
