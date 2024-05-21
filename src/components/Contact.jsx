@@ -108,7 +108,7 @@ export default function Contact() {
       </form>
       </div>
       <div className="w-2/6 mt-10 ">
-          <img src="../../public/3.png" alt="" />
+          <img src="../assets/3.png" alt="" />
         </div>
     </div>
   )

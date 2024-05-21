@@ -1,16 +1,16 @@
-import Headshot1 from '../../public/headshot3.png';
-import oromo3 from '../../public/oromo3.jpg';
-import Urji from '../../public/Urji4.png';
-import work from '../../public/work1.png'
+import headshot3 from '../assets/headshot3.png';
+import oromo3 from '../assets/oromo3.jpg';
+import Urji from '../assets/Urji4.png';
+import work from '../assets/work1.png'
   
-import html5 from '../../public/html5.svg';
-import css3 from '../../public/css3-alt.svg';
-import js from '../../public/js.svg';
-import react from '../../public/react.svg';
-import node from '../../public/node.svg';
-import java from '../../public/java.svg';
-import git from '../../public/git.svg';
-import github from '../../public/github.svg';
+import html5 from '../assets/html5.svg';
+import css3 from '../assets/css3-alt.svg';
+import js from '../assets/js.svg';
+import react from '../assets/react.svg';
+import node from '../assets/node.svg';
+import java from '../assets/java.svg';
+import git from '../assets/git.svg';
+import github from '../assets/github.svg';
 
 const people = [
   { name: 'Leslie Alexander', role: 'Co-Founder / CEO', imageUrl: html5 },
@@ -44,7 +44,7 @@ export default function About() {
         <div className='w-2/3 grid grid-cols-2 ' >
           
  
-    <img src={Headshot1} alt="" className='w-60 h-90 rounded-2xl relative ' style={{left: ''}}/>
+    <img src={headshot3} alt="" className='w-60 h-90 rounded-2xl relative ' style={{left: ''}}/>
     <img src={oromo3} alt="" className='w-80 h-60 rounded-2xl '/>
         <img src={work} alt="" className='w-80 h-90 rounded-2xl '/>
         <img src={Urji} alt="" className='w-60 h-96 rounded-2xl relative' style={{ top: '-140px', left: '20px' }}/>

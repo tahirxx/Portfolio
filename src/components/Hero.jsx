@@ -1,4 +1,4 @@
-import Headshot from '../../public/Headshot2.png';
+import Headshot from '../assets/Headshot2.png';
 
 export default function Hero() {
     

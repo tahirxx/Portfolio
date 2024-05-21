@@ -1,8 +1,8 @@
-import ecommerce from '../../public/ecommerce2.png';
-import realestate from '../../public/realestate.png';
-import web1 from '../../public/web1.png';
-import menu1 from '../../public/menu1.png';
-import coming from '../../public/Coming.png';
+import ecommerce from '../assets/ecommerce2.png';
+import realestate from '../assets/realestate.png';
+import web1 from '../assets/web1.png';
+import menu1 from '../assets/menu1.png';
+import coming from '../assets/Coming.png';
 
 const products = [
   {
