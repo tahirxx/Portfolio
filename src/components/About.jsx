@@ -1,55 +1,55 @@
 import Headshot1 from '../../public/headshot3.png';
-import oromo3 from '/oromo3.jpg';
-import Urji from '/Urji4.png';
-import work from '/work1.png'
+import oromo3 from '../../public/oromo3.jpg';
+import Urji from '../../public/Urji4.png';
+import work from '../../public/work1.png'
   const people = [
   {
     name: 'Leslie Alexander',
     role: 'Co-Founder / CEO',
     imageUrl:
-      '/html5.svg',
+      '../../public/html5.svg',
   },
   {
     name: 'Leslie Alexander',
     role: 'Co-Founder / CEO',
     imageUrl:
-      '/css3-alt.svg',
+      '../../public/css3-alt.svg',
   },
   {
     name: 'Leslie Alexander',
     role: 'Co-Founder / CEO',
     imageUrl:
-      '/js.svg',
+      '../../public/js.svg',
   },
   {
     name: 'Leslie Alexander',
     role: 'Co-Founder / CEO',
     imageUrl:
-      '/react.svg',
+      '../../public/react.svg',
   },
   {
     name: 'Leslie Alexander',
     role: 'Co-Founder / CEO',
     imageUrl:
-      '/node.svg',
+      '../../public/node.svg',
   },
   {
     name: 'Leslie Alexander',
     role: 'Co-Founder / CEO',
     imageUrl:
-      '/java.svg',
+      '../../public/java.svg',
   },
   {
     name: 'Leslie Alexander',
     role: 'Co-Founder / CEO',
     imageUrl:
-      '/git.svg',
+      '../../public/git.svg',
   },
   {
     name: 'Leslie Alexander',
     role: 'Co-Founder / CEO',
     imageUrl:
-      '/github.svg',
+      '../../public/github.svg',
   },
 
   
@@ -59,7 +59,7 @@ import work from '/work1.png'
 
 export default function About() {
   return (
-    <div className="bg-[url('/wave14.svg')] bg-cover bg-center max-h-max mx-auto max-w-screen-2xl  ">
+    <div className="bg-[url('../../public/wave14.svg')] bg-cover bg-center max-h-max mx-auto max-w-screen-2xl  ">
     <div className='max-w-2xl mx-auto sm:px-6 sm:py-10 lg:max-w-7xl lg:px-2 pt-20 flex flex-col '>
         <div className="h-1/2 text-wrap pb-6 flex flex-col justify-center items-center text-center">
           <h1 className="text-3xl font-serif ">About</h1>
