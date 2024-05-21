@@ -41,13 +41,13 @@
 
   /* src/App.css */
 .bg-wave4 {
-  background-image: url('/wave4.svg');
+  background-image: url('../assets/wave4.svg');
 }
 
 .bg-wave22 {
-  background-image: url('/wave22.svg');
+  background-image: url('../assets/wave22.svg');
 }
 
 .bg-wave14 {
-  background-image: url('/wave14.svg');
+  background-image: url('../assets/wave14.svg');
 }
