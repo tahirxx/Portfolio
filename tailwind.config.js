@@ -8,7 +8,12 @@ export default {
     extend: {
       fontFamily: {
         serif: ['"DM Serif Display"', 'serif']
-      }
+      },
+      backgroundImage: {
+        'wave4': "url('/wave4.svg')",
+        'wave22': "url('/wave22.svg')",
+        'wave14': "url('/wave14.svg')",
+      },
     },
   },
   variants: {},

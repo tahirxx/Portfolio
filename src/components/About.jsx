@@ -2,64 +2,38 @@ import Headshot1 from '../../public/headshot3.png';
 import oromo3 from '../../public/oromo3.jpg';
 import Urji from '../../public/Urji4.png';
 import work from '../../public/work1.png'
-  const people = [
-  {
-    name: 'Leslie Alexander',
-    role: 'Co-Founder / CEO',
-    imageUrl:
-      '../../public/html5.svg',
-  },
-  {
-    name: 'Leslie Alexander',
-    role: 'Co-Founder / CEO',
-    imageUrl:
-      '../../public/css3-alt.svg',
-  },
-  {
-    name: 'Leslie Alexander',
-    role: 'Co-Founder / CEO',
-    imageUrl:
-      '../../public/js.svg',
-  },
-  {
-    name: 'Leslie Alexander',
-    role: 'Co-Founder / CEO',
-    imageUrl:
-      '../../public/react.svg',
-  },
-  {
-    name: 'Leslie Alexander',
-    role: 'Co-Founder / CEO',
-    imageUrl:
-      '../../public/node.svg',
-  },
-  {
-    name: 'Leslie Alexander',
-    role: 'Co-Founder / CEO',
-    imageUrl:
-      '../../public/java.svg',
-  },
-  {
-    name: 'Leslie Alexander',
-    role: 'Co-Founder / CEO',
-    imageUrl:
-      '../../public/git.svg',
-  },
-  {
-    name: 'Leslie Alexander',
-    role: 'Co-Founder / CEO',
-    imageUrl:
-      '../../public/github.svg',
-  },
+  
+import html5 from '../../public/html5.svg';
+import css3 from '../../public/css3-alt.svg';
+import js from '../../public/js.svg';
+import react from '../../public/react.svg';
+import node from '../../public/node.svg';
+import java from '../../public/java.svg';
+import git from '../../public/git.svg';
+import github from '../../public/github.svg';
+
+const people = [
+  { name: 'Leslie Alexander', role: 'Co-Founder / CEO', imageUrl: html5 },
+  { name: 'Leslie Alexander', role: 'Co-Founder / CEO', imageUrl: css3 },
+  { name: 'Leslie Alexander', role: 'Co-Founder / CEO', imageUrl: js },
+  { name: 'Leslie Alexander', role: 'Co-Founder / CEO', imageUrl: react },
+  { name: 'Leslie Alexander', role: 'Co-Founder / CEO', imageUrl: node },
+  { name: 'Leslie Alexander', role: 'Co-Founder / CEO', imageUrl: java },
+  { name: 'Leslie Alexander', role: 'Co-Founder / CEO', imageUrl: git },
+  { name: 'Leslie Alexander', role: 'Co-Founder / CEO', imageUrl: github },
+];
+
+
+
 
   
   // More people...
-]
+
 
 
 export default function About() {
   return (
-    <div className="bg-[url('../../public/wave14.svg')] bg-cover bg-center max-h-max mx-auto max-w-screen-2xl  ">
+    <div className="bg-wave14 bg-cover bg-center max-h-max mx-auto max-w-screen-2xl  ">
     <div className='max-w-2xl mx-auto sm:px-6 sm:py-10 lg:max-w-7xl lg:px-2 pt-20 flex flex-col '>
         <div className="h-1/2 text-wrap pb-6 flex flex-col justify-center items-center text-center">
           <h1 className="text-3xl font-serif ">About</h1>
@@ -96,7 +70,7 @@ export default function About() {
                   <h1 className="text-2xl font-bold text-left pt-12" >My Skills</h1>
                   <ul role="list" className="grid grid-cols-10 gap-4 items-center ">
                   {/* Assuming people is an array of 10 person objects */}
-                  {people.slice(0, 10).map((person, index) => (
+                  {people.map((person, index) => (
                     <li key={index}>
                       <img className="h-30 w-30 object cover border-solid animate-bounce group-hover:scale-120" src={person.imageUrl} alt="" />
                     </li>
