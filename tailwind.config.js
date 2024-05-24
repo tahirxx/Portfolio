@@ -14,6 +14,10 @@ export default {
         'wave22': "url('/wave22.svg')",
         'wave14': "url('/wave14.svg')",
       },
+      flex: {
+        '0.5': '0.5 0.5 0%',
+        '5': '5 5 0%',
+      },
     },
   },
   variants: {},

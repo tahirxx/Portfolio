@@ -1,6 +1,6 @@
 import { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
-
+import avator from "../assets/3.png";
 // function classNames(...classes) {
 //   return classes.filter(Boolean).join(' ')
 // }
@@ -35,14 +35,16 @@ export default function Contact() {
     
    
       <div className=" bg-wave22 bg-cover bg-right flex justify-center max-h-max mx-auto max-w-screen-2xl  px-6 sm:py-20 lg:px-8">
-       <div className="bg-gray-100 w-200  p-6 rounded-md">
+       {/* all content container/div */}
+       <div className='flex flex-col md:flex-row justify-center'>
+       <div className="bg-gray-100 w-64 md:w-96 justify-center mt-10 p-6 rounded-md">
       <div className="  mx-auto text-center">
-        <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Get In Touch</h2>
-        <p className="mt-2 text-lg leading-8 text-gray-600">
-        Have a question or just want to say hi? Lets connect!.
+        <h2 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl">Get In Touch</h2>
+        <p className="mt-2 text-md leading-8 text-gray-600">
+        Have a question or just want to say hi? Lets connect!
         </p>
       </div>
-      <form ref={form} onSubmit={sendEmail} className="mx-auto mt-4 max-w-xl sm:mt-5">
+      <form ref={form} onSubmit={sendEmail} className="mx-auto mt-2 max-w-xl sm:mt-5">
         <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
           <div className="sm:col-span-2">
             <label htmlFor="name" className="block text-sm font-semibold leading-6 text-gray-900">
@@ -107,9 +109,10 @@ export default function Contact() {
         </div>
       </form>
       </div>
-      <div className="w-2/6 mt-10 ">
-          <img src="../assets/3.png" alt="" />
+      <div className="hidden md:block md:w-2/6 md:mt-10 content-center">
+          <img src={avator} alt="" className=''/>
         </div>
+    </div>
     </div>
   )
 }

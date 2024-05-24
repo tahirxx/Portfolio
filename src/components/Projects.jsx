@@ -77,10 +77,10 @@ const products = [
 export default function Projects() {
   return (
     <div className=" mx-auto max-w-screen-2xl">
-      <div className=" mx-auto max-w-2xl  sm:px-3 sm:py-8 lg:max-w-7xl lg:px-4">
+      <div className=" mx-auto max-w-2xl  sm:px-3 py-8 lg:max-w-7xl lg:px-4">
         <h2 className="text-3xl font-serif pb-6 tracking-tight text-black text-center">Projects</h2>
 
-        <div className=" grid grid-cols-1 gap-x-6 gap-y-10 p-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 xl:gap-x-8 ">
+        <div className=" grid grid-cols-1 gap-x-6 gap-y-6 p-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 xl:gap-x-8 ">
           {products.map((product) => (
             <div key={product.id} className={`bg-gray-200 p-1 rounded-lg cursor-pointer`}>
               <div className="p-1 aspect-h-1 aspect-w-1 cursor-pointer rounded-md bg-gray-200 lg:aspect-none  lg:h-64 hover:scale-105">
@@ -91,7 +91,7 @@ export default function Projects() {
                 />
               </div>
               <div className="p-4">
-                <h3 className="mt-4 text-xl font-bold text-black text-center">{product.name}</h3>
+                <h3 className="mt-1 text-xl font-bold text-black text-center">{product.name}</h3>
                 <p className="mt-1 text-md font-medium text-gray-900">{product.description}</p>
               </div>
               <div className="my-4 text-lg flex w-full justify-center gap-10 ">
